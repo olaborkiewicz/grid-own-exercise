@@ -1,0 +1,37 @@
+.box-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "nav nav nav nav nav nav"
+        "side-nav side-nav content content content content"
+        "ad1 ad1 ad1 ad2 ad2 ad2"
+        "footer footer footer footer footer footer";
+    text-align: center;
+    grid-gap: 10px;
+   
+}
+
+.nav {
+    grid-area: nav;
+}
+.side-nav {
+    grid-area: side-nav;
+}
+.content {
+    grid-area: content;
+}
+.ad1 {
+    grid-area: ad1;
+}
+.ad2 {
+    grid-area: ad2;
+}
+.footer {
+    grid-area: footer;
+}
+
+.box-container div {
+    background: blue;
+    padding: 10px;
+}

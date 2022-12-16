@@ -1,0 +1,23 @@
+.box-container {
+    display:flex;
+    width: 100%;
+    height: auto;
+    background: grey;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+
+.box_1 {
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-items: left;
+}
+
+.box_2 {
+display: flex;
+align-items: center;
+justify-items: right;
+}
+
